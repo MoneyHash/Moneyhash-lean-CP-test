@@ -15,8 +15,8 @@ let package = Package(
     dependencies: [
         .package(
             name: "MoneyHashCore",
-            url: "https://github.com/MoneyHash/Moneyhash-core-CP-test.git",
-            "0.0.2-dev.1"..<"1.0.0"
+            url: "https://github.com/MoneyHash/Moneyhash-core-CP-test2.git",
+            "0.0.1-dev.1"..<"1.0.0"
         ),
         .package(
             url: "https://github.com/leantechnologies/link-sdk-ios-distribution",
@@ -34,8 +34,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "MoneyHashLean",
-            url: "https://github.com/MoneyHash/Moneyhash-lean-CP-test/releases/download/0.0.2-dev.1/MoneyHashLean.xcframework.zip",
-            checksum: "a31b01452d2cb1a668e03af8a547ff0657e18a09a52caa3f2c0653e394ccecf8"
+            url: "https://github.com/MoneyHash/Moneyhash-lean-CP-test/releases/download/0.0.2-dev.2/MoneyHashLean.xcframework.zip",
+            checksum: "41512b454865cd8350f6facf59c94af5ea6ba8d12b4b3c35d0bf614f8b82bf7f"
         )
     ]
 )
